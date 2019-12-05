@@ -3,7 +3,8 @@
 These are dotfiles from an [Arch Linux](https://www.archlinux.org/) installation.
 
 At the moment following dotfiles are included in this repository:
-* [Bash](https://www.gnu.org/software/bash/)
+* [systemd](https://www.freedesktop.org/wiki/Software/systemd/)
+* [fish](http://fishshell.com/)
 * [xinit](https://www.x.org/)
 * [i3](https://i3wm.org/)
 * [i3status](https://i3wm.org/)
