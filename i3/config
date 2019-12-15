@@ -174,4 +174,5 @@ bindsym $launch+j exec /opt/eclipse-java/eclipse
 bindsym $launch+i exec /opt/idea/bin/idea.sh
 bindsym $launch+q exec qtcreator
 bindsym $launch+g exec glade
+bindsym $launch+b exec qutebrowser
 bindsym $launch+f exec firefox
