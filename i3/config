@@ -169,9 +169,11 @@ set $launch Ctrl+Mod1
 bindsym $launch+v exec gvim
 bindsym $launch+c exec codeblocks
 bindsym $launch+r exec /opt/eclipse-rust/eclipse
+bindsym $launch+l exec liteide
 bindsym $launch+p exec /opt/pycharm-community/bin/pycharm.sh
 bindsym $launch+j exec /opt/eclipse-java/eclipse
 bindsym $launch+i exec /opt/idea/bin/idea.sh
+bindsym $launch+a exec atom
 bindsym $launch+q exec qtcreator
 bindsym $launch+g exec glade
 bindsym $launch+w exec qutebrowser
