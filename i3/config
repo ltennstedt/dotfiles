@@ -32,7 +32,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -b -fn Hack
+bindsym $mod+d exec i3-dmenu-desktop --dmenu="dmenu -i -b -fn Hack" --entry-type=name
 
 # change focus
 bindsym $mod+Left focus left
@@ -163,18 +163,3 @@ exec_always --no-startup-id picom -cfb --vsync --backend glx
 exec_always --no-startup-id feh --bg-scale --no-fehbg /usr/share/backgrounds/archlinux/archlinux-deep-aurora.jpg
 exec_always --no-startup-id dunst
 exec_always --no-startup-id xautolock -locker "i3lock -i /usr/share/backgrounds/archlinux/archlinux-simplyblack.png"
-
-# key bindings
-set $launch Ctrl+Mod1
-bindsym $launch+v exec gvim
-bindsym $launch+c exec codeblocks
-bindsym $launch+r exec /opt/eclipse-rust/eclipse
-bindsym $launch+l exec liteide
-bindsym $launch+p exec /opt/pycharm-community/bin/pycharm.sh
-bindsym $launch+j exec /opt/eclipse-java/eclipse
-bindsym $launch+i exec /opt/idea/bin/idea.sh
-bindsym $launch+a exec atom
-bindsym $launch+q exec qtcreator
-bindsym $launch+g exec glade
-bindsym $launch+w exec qutebrowser
-bindsym $launch+f exec firefox
