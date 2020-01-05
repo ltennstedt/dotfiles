@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Hack Regular 9
+font pango:NotoSansMono 9
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -32,7 +32,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec i3-dmenu-desktop --dmenu="dmenu -i -b -fn Hack" --entry-type=name
+bindsym $mod+d exec i3-dmenu-desktop --dmenu="dmenu -i -b -fn NotoSansMono" --entry-type=command
 
 # change focus
 bindsym $mod+Left focus left
@@ -160,6 +160,6 @@ bindsym $mod+l exec i3lock -i /usr/share/backgrounds/archlinux/archlinux-simplyb
 
 # autostart
 exec_always --no-startup-id picom -cfb --vsync --backend glx
-exec_always --no-startup-id feh --bg-scale --no-fehbg /usr/share/backgrounds/archlinux/archlinux-deep-aurora.jpg
+exec_always --no-startup-id feh --bg-scale --no-fehbg ~/wallpapers/nasa-NuE8Nu3otjo-unsplash.jpg
 exec_always --no-startup-id dunst
 exec_always --no-startup-id xautolock -locker "i3lock -i /usr/share/backgrounds/archlinux/archlinux-simplyblack.png"
