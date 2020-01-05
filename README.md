@@ -8,5 +8,5 @@ At the moment following dotfiles are included in this repository:
 * [xinit](https://www.x.org/)
 * [i3](https://i3wm.org/)
 * [i3status](https://i3wm.org/)
-* [kitty](https://sw.kovidgoyal.net/kitty/)
+* [Alacritty](https://github.com/jwilm/alacritty)
 * [dunst](https://dunst-project.org/)
