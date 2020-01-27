@@ -166,6 +166,6 @@ bindsym $mod+l exec i3lock -i /usr/share/backgrounds/archlinux/archlinux-simplyb
 
 # autostart
 exec_always --no-startup-id picom -cfb --vsync --backend glx
-exec_always --no-startup-id feh --bg-scale --no-fehbg ~/wallpapers/nasa-NuE8Nu3otjo-unsplash.jpg
+exec_always --no-startup-id feh --bg-scale --no-fehbg /usr/share/backgrounds/archlinux/archlinux-deep-aurora.jpg
 exec_always --no-startup-id dunst
 exec_always --no-startup-id xautolock -locker "i3lock -i /usr/share/backgrounds/archlinux/archlinux-simplyblack.png"
